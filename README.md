@@ -2,6 +2,9 @@
 # ✈️ TrAIp - Trip Planner
 Traip is a frontend web application designed to help users plan their trips with the assistance of artificial intelligence. It leverages modern web technologies like Next.js, TypeScript, and React to deliver an intuitive, responsive, and engaging experience for users looking to explore and plan their travels.
 
+# Deployment 
+Deployed in Vercel - https://traip.vercel.app/
+
 
 ## 🔍 Features
 - **AI-powered trip planning**: Helps users find destinations based on their preferences.
