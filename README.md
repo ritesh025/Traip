@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# ✈️ TrAIp - Trip Planner
+Traip is a frontend web application designed to help users plan their trips with the assistance of artificial intelligence. It leverages modern web technologies like Next.js, TypeScript, and React to deliver an intuitive, responsive, and engaging experience for users looking to explore and plan their travels.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🔍 Features
+- **AI-powered trip planning**: Helps users find destinations based on their preferences.
+- **Responsive Design**: Fully responsive and optimized for mobile and desktop views.
+- **Carousel for destinations**: Uses **React Multi Carousel** to display images and destinations in a sleek, responsive carousel.
+- **Icons**: Uses **React Icons** for clean, scalable, and easily customizable icons.
+- **Fonts**: Uses **Google Fonts** for modern typography.
+## 🔐Required Setup
+- Install nextjs from create next app.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Install react icons.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Install react multi carousel.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- npm run dev
+## 🛠️Tech Stack
+- **Next.js** (React framework)
+- **TypeScript**
+- **TailwindCSS**
+- **React Icons** (for icons)
+- **React Multi Carousel** (for carousel display)
+- **Google Fonts** (for fonts)
+- **Unsplash** / **Pixabay** (for image)
+## 🤝Contributing
 
-## Learn More
+We welcome contributions! If you would like to improve Traip AI Trip Planner, feel free to fork the repository, create a feature branch, and submit a pull request.
 
-To learn more about Next.js, take a look at the following resources:
+Fork the repository
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Create a new branch (git checkout -b feature-branch)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Make your changes
 
-## Deploy on Vercel
+Commit your changes (git commit -am 'Add new feature')
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Push to the branch (git push origin feature-branch)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Create a pull request
+## Future Features
+
+- Integration with a trip booking API for booking flights, hotels, etc.
+
+- User accounts and trip history tracking.
+
+- AI-powered destination recommendations based on user preferences and past trips.
