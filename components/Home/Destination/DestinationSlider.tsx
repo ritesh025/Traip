@@ -3,6 +3,7 @@ import { destinationData } from '@/data/data';
 import React from 'react'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import Image from 'next/image';
 
 const responsive = {
   desktop: {
@@ -29,7 +30,7 @@ const DestinationSlider = () => {
          return( <div key = {data.id} className='m-3' >
             <div className="relative h-[400px]">
                 <div className="absolute inset-0 bg-black opacity-30 rounded-b-lg"></div>
-                <img src={data.image} alt={data.country} width={500} height={500} className="w-full h-full object-cover rounded-lg" />
+                <Image src={data.image} alt={data.country} width={500} height={500} className="w-full h-full object-cover rounded-lg" />
 
             </div>
                 <h1 className="text-lg font-semibold mt-4">{data.country}</h1>

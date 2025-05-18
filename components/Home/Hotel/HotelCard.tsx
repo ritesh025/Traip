@@ -1,6 +1,6 @@
-import { hotelsData } from '@/data/data';
 import React from 'react'
 import { IoHeart } from "react-icons/io5";
+import Image from 'next/image';
 
 type Props = {
     hotel: {
@@ -23,7 +23,7 @@ const HotelCard = ({hotel}: Props) => {
           <IoHeart className="w-5 h-5 text-red-600" />
         </div>
         <div className="absolute inset-0 bg-black z-10 opacity-15 rounded-2xl"></div>
-        <img
+        <Image
           src={hotel.image}
           alt={hotel.name}
           width={500}

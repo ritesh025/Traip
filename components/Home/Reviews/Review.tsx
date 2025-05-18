@@ -12,7 +12,7 @@ const Review = () => {
           </h1>
           <p className="mt-6 text-gray-100 ">
             We are dedicated to providing exceptional customer service and
-            ensuring your satisfaction with our travel planning services. Our team of experts is committed to helping you find the perfect trip, whether you're planning a weekend getaway, a family vacation, or a business trip.
+            ensuring your satisfaction with our travel planning services. Our team of experts is committed to helping you find the perfect trip, whether you are planning a weekend getaway, a family vacation, or a business trip.
           </p>
           <div className="mt-6 flex items-center space-x-6">
             <div>
