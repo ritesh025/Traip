@@ -39,7 +39,7 @@ const WhyChoose = () => {
           data-aos-delay="300"
         >
           <WhyChooseCard
-            image="/images/C4.png"
+            image="/images/c4.png"
             title="Trusted by Thousands"
           ></WhyChooseCard>
         </div>
